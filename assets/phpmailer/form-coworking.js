@@ -52,7 +52,7 @@ jQuery(function()
         
                jQuery.ajax({
                 type: "POST",
-                url: '../../phpmailer/form-coworking.php',
+                url: 'assets/phpmailer/form-coworking.php',
                 data: $form.serialize(),
                 success: after_form_submitted,
                 dataType: 'json' 

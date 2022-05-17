@@ -52,7 +52,7 @@ jQuery(function()
         
                jQuery.ajax({
                 type: "POST",
-                url: '../../phpmailer/handler.php',
+                url: 'assets/phpmailer/handler.php',
                 data: $form.serialize(),
                 success: after_form_submitted,
                 dataType: 'json' 
