@@ -19516,3 +19516,130 @@ a.action_button:hover{text-decoration:none}
 #Content.no-padding, .template-slider #Content, .with_aside #Content {
     padding-top: 0px !important;
 }
+
+
+
+.circle{
+	border-radius: 40%;
+	margin: 0.17em;
+	font-size: 1.2em;
+	}
+	
+.fa-twitter{
+	background:;
+	color: #FFFFFF;
+  padding: 0.15em 0.15em;
+	}
+
+.fa-google-plus{
+  color: #FFFFFF;
+  background:;
+  padding: 0.1em 0.1em;
+  }  
+
+
+.fa-pinterest{
+	color: #b8a295;
+  padding: 0.1em 0.1m;
+	}
+
+.fa-facebook{
+	background: ;
+	color: #FFFFFF;
+  padding: 0.1em 0.4em;
+	}
+
+
+.fa-instagram{
+  color: #FFFFFF;
+  background: ;
+  padding: 0.2em 0.2em;
+  }  
+
+.fa-linkedin{
+  color: #FFFFFF;
+  background: ;
+  padding: 0.2em 0.2em;
+  }
+
+
+  [data-toggle="collapse"].collapsed .if-not-collapsed {
+	display: none;
+}
+
+[data-toggle="collapse"]:not(.collapsed) .if-collapsed {
+	display: none;
+}
+
+
+.collapse{
+	display:none;
+}
+
+.collapse:not(.show){
+	display: none;
+}
+
+
+
+body {
+	background: #f2e7e5;
+	font-family: sans-serif;
+}
+.wrapper {
+	width: 900px;
+	min-height: auto;
+	margin: 20px auto;
+}
+.wrapper ul {
+	list-style: none;
+	padding: 0;
+}
+.wrapper ul:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.wrapper ul li {
+	width: calc(30% - 5px);
+	margin: 30px 15px 0;
+	height: 150px;
+	background-size: cover;
+	background-position: center center;
+	float: left;
+	box-shadow: 0 15px 10px 1px rgba(0, 0, 0, 0.5);
+}
+.wrapper ul li:nth-child(1n + 4) {
+	max-height: 0;
+	opacity: 0;
+	transition: 0.2s ease-in;
+}
+.wrapper .btn-area {
+	display: block;
+	background: #7f2a4b;
+	color: #fff;
+	cursor: pointer;
+	text-align: center;
+	font-weight: 900;
+	width: 180px;
+	line-height: 50px;
+	margin: 50px auto 0;
+	border-radius: 50px;
+}
+.wrapper .btn-area .btn2 {
+	display: none;
+}
+.wrapper #btnBox {
+	display: none;
+}
+.wrapper #btnBox:checked~ul li:nth-child(1n + 4) {
+	max-height: 1000px;
+	opacity: 1;
+	transition: 0.2s ease-in;
+}
+.wrapper #btnBox:checked~.btn-area .btn2 {
+	display: block;
+}
+.wrapper #btnBox:checked~.btn-area .btn1 {
+	display: none;
+}

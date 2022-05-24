@@ -119,7 +119,7 @@ body:not(.template-slider) #Content {
 	margin: 0 auto;
 }
 .with_aside .sections_group {
-	width: 75%;
+	width: 150%;
 	float: left;
 }
 .with_aside .section_wrapper {
