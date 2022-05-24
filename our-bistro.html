@@ -26,6 +26,7 @@
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700'>
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic,800'>
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:100,300,400'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- CSS -->
     <link rel='stylesheet' href='assets/css/global.css'>
@@ -35,9 +36,10 @@
 
 </head>
 
-<body class="style-simple layout-full-width nice-scroll-on mobile-tb-left button-stroke if-border-hide no-content-padding header-split header-semi minimalist-header-no sticky-white ab-hide subheader-both-center menuo-no-borders footer-sliding footer-copy-center tr-menu">
+<body class="style-simple layout-full-width nice-scroll-on mobile-tb-left button-stroke if-border-hide no-content-padding header-split sticky-header header-semi minimalist-header-no sticky-white ab-hide subheader-both-center menuo-no-borders footer-sliding footer-copy-center tr-menu">
     <div id="Wrapper">
         <div id="Header_wrapper" class="bg-parallax" data-enllax-ratio="0.3">
+            <div class="layer"></div>
             <header id="Header">
                 <div class="header_placeholder"></div>
                 <div id="Top_bar" class="loading">
@@ -45,7 +47,10 @@
                         <div class="column one">
                             <div class="top_bar_left clearfix">
                                 <div class="logo">
-                                    <a id="logo" href="index.html" title="BeBistro - BeTheme"><img class="logo-main scale-with-grid" src="assets/images/bistro.png" /><img class="logo-sticky scale-with-grid" src="assets/images/bistro.png" /><img class="logo-mobile scale-with-grid" src="assets/images/m-bistro.png" />
+                                    <a id="logo" href="index.html" title="BeBistro - BeTheme">
+                                        <img class="logo-main scale-with-grid" src="assets/images/konte2.png"/>
+                                        <img class="logo-sticky scale-with-grid" src="assets/images/konte2.png"/>
+                                        <img class="logo-mobile scale-with-grid" src="assets/images/retina-konte2.png"/>
                                     </a>
                                 </div>
                                 <div class="menu_wrapper">
@@ -55,15 +60,15 @@
                                                 <a href="index.html"><span>Home</span></a>
                                             </li>
                                             <li>
-                                                <a href="our-menu.html"><span>Our menu</span></a>
+                                                <a href="our-menu.html"><span>Menu</span></a>
                                             </li>
                                             <li>
-                                                <a href="standars.html"><span>Standards</span></a>
+                                                <a href="gallery.html"><span>Gallery</span></a>
                                             </li>
                                         </ul>
                                         <ul id="menu-main-menu-right" class="menu menu_right">
                                             <li class="current_page_item">
-                                                <a href="our-bistro.html"><span>Our bistro</span></a>
+                                                <a href="our-bistro.html"><span>About us</span></a>
                                             </li>
                                             <li>
                                                 <a href="contact.html"><span>Contact</span></a>
@@ -72,7 +77,7 @@
                                                 <a target="_blank" href="http://bit.ly/1M6lijQ"><span><span style="padding: 0; color: #ead690;">Buy now</span></span></a>
                                             </li>
                                         </ul>
-                                    </nav><a class="responsive-menu-toggle" href="#"><i class="icon-menu"></i></a>
+                                    </nav><a class="responsive-menu-toggle" href="#"><i class="fa fa-bars fa-6" aria-hidden="true"></i></a>
                                 </div>
                                 
                                 <div class="banner_wrapper"></div>
@@ -91,7 +96,7 @@
             <div id="Subheader" style="padding:300px 0 120px;">
                 <div class="container">
                     <div class="column one">
-                        <h1 class="title">Our bistro</h1>
+                        <h1 class="title">About us</h1>
                     </div>
                 </div>
             </div>
@@ -368,6 +373,15 @@
         </footer>
     </div>
 
+<!-- side menu -->
+<div id="Side_slide" class="right dark" data-width="250">
+    <div class="close-wrapper">
+        <a href="#" class="close"><i class="fa fa-times fa-6" aria-hidden="true"></i></a>
+    </div>
+    <div class="menu_wrapper"></div>
+</div>
+<div id="body_overlay"></div>
+
     <!-- JS -->
     <script src="assets/js/jquery-2.1.4.min.js"></script>
 
@@ -386,15 +400,15 @@
                 var retinaEl = jQuery("#logo img.logo-main");
                 var retinaLogoW = retinaEl.width();
                 var retinaLogoH = retinaEl.height();
-                retinaEl.attr("src","assets/images/retina-bistro.png").width(retinaLogoW).height(retinaLogoH);
+                retinaEl.attr("src","assets/images/retina-konte2.png").width(retinaLogoW).height(retinaLogoH);
                 var stickyEl = jQuery("#logo img.logo-sticky");
                 var stickyLogoW = stickyEl.width();
                 var stickyLogoH = stickyEl.height();
-                stickyEl.attr("src","assets/images/retina-bistro.png").width(stickyLogoW).height(stickyLogoH);
+                stickyEl.attr("src","assets/images/retina-konte2.png").width(stickyLogoW).height(stickyLogoH);
                 var mobileEl = jQuery("#logo img.logo-mobile");
                 var mobileLogoW = mobileEl.width();
                 var mobileLogoH = mobileEl.height();
-                mobileEl.attr("src","assets/images/m-retina-bistro.png").width(mobileLogoW).height(mobileLogoH);
+                mobileEl.attr("src","assets/images/retina-konte2.png").width(mobileLogoW).height(mobileLogoH);
             }
         });
     </script>

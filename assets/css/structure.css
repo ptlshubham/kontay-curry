@@ -2087,7 +2087,7 @@ body.header-stack:not(.template-slider) #Header {
 .header-overlay .overlay-menu-toggle.focus .close {
 	display: block;
 }
-.header-overlay.sticky-header .overlay-menu-toggle {
+.header-overlay .sticky-header .overlay-menu-toggle {
 	position: fixed;
 	margin-right: 10px;
 }
@@ -5670,6 +5670,7 @@ body {
 	#Top_bar, #Action_bar {
 		background: #fff !important;
 		position: static;
+		height: 110px !important;
 	}
 	#Top_bar .top_bar_left {
 		float: none;
@@ -5734,6 +5735,9 @@ body {
 	}
 	#Top_bar .logo #logo img {
 		height: auto !important;
+		max-width: 100px;
+		max-height: 100px;
+		margin-top: -117px !important;
 	}
 	#Top_bar .search_wrapper {
 		top: auto;
