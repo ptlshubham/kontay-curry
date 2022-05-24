@@ -1,5 +1,94 @@
-.layer{
-    background-color:rgba(0, 0, 0, 0.8);
+.my_menucard{
+	position: relative;
+    color: #184e7d;
+}
+
+.my_menucard:hover {
+    text-decoration: none;
+    text-shadow: -0.5px 0 #184e7d, 0 0.5px #184e7d, 0.5px 0 #184e7d, 0 -0.5px #184e7d;
+  }
+
+
+.my_menucard:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    display: block;
+    border-bottom: 2px solid none;
+    background-color: transparent;
+    transform: scaleX(0);
+    transition: 300ms;
+  }
+
+.my_menucard:hover:after{
+    background-color: #f9b205;
+    transform: scaleX(1);
+}
+
+/*
+.my_menucard::before,.my_menucard::after{
+	content: " ";
+	position: absolute;
+	width: 25px;
+	height: 4px;
+	background:#f9b205;
+	transform: skewx(50deg);
+	transition: .4s linear;
+}
+
+.my_menucard::before{
+	top: -4px;
+	left: 5%;
+}
+.my_menucard::after{
+	bottom: -4px;
+	right: 5%;
+}
+
+.my_menucard:hover::before{
+	left: 70%;
+	transform: skewX(-50deg);
+}
+.my_menucard:hover::after{
+	right: 70%;
+	transform: skewX(-50deg);
+}
+*/
+
+#my_button{
+	transition: color 0.4s linear;
+	position: relative;
+}
+
+#my_button:hover{
+	color: white;
+}
+
+#my_button::before{
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #f9b205;
+	z-index: -1;
+	transition: transform 1s;
+	transform-origin: 0 0;
+	transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7); 
+}
+
+#my_button::before{
+	transform: scaleY(0);
+}
+
+#my_button:hover::before{
+	transform: scaleY(1);
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.8);
     position: absolute;
     top: 0;
     left: 0;
