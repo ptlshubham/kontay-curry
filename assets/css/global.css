@@ -19643,3 +19643,34 @@ body {
 .wrapper #btnBox:checked~.btn-area .btn1 {
 	display: none;
 }
+
+
+
+.contactplate img {
+    width: 90px;
+    height: 90px;
+    filter: invert(25%) sepia(55%) saturate(953%) hue-rotate(172deg) brightness(92%) contrast(94%);
+}
+
+.contactplate p {
+    font-family: "Yeseva One", Arial, Tahoma, sans-serif;
+    font-size: 25px;
+    line-height: 29px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    margin-bottom: 15px;
+    color: #3a589b;
+}
+
+.contactplate:hover img {
+    animation: 0.3s;
+    width: 120px;
+    height: 120px;
+    filter: invert(61%) sepia(26%) saturate(918%) hue-rotate(142deg) brightness(93%) contrast(89%);
+}
+
+.contactplate:hover p {
+    animation: 0.3s;
+    color: #40abbf;
+    text-decoration: none;
+}

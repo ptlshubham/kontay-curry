@@ -115,12 +115,15 @@
             <div class="content_wrapper clearfix">
                 <div class="sections_group">
                     <div class="entry-content">
+
+                       
                         <div class="section mcb-section" id="contact_form"
                             style="padding-top:80px; padding-bottom:40px; ">
                             <div class="section_wrapper mcb-section-inner">
                                 <div class="wrap mcb-wrap one  valign-top clearfix">
                                     <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one-fourth column_column">
+                                   
+                                       <!-- <div class="column mcb-column one-fourth column_column">
                                             <div class="column_attr">
 
                                                 <p>
@@ -151,8 +154,8 @@
                                                 <h5 style="margin-bottom: 5px;">e-mail</h5>
                                                 <h4 style="font-weight: 400;"><a href="mailto:Kontekurry@gmail.com" target="_blank">Kontekurry@gmail.com</a></h4>
                                             </div>
-                                        </div>
-                                        <div class="column mcb-column one column_image">
+                                        </div> -->
+                                        <div class="column mcb-column one column_image"id="mail">
                                             <div
                                                 class="image_frame image_item no_link scale-with-grid aligncenter no_border">
                                                 <div class="image_wrapper"><img class="scale-with-grid"
@@ -165,17 +168,43 @@
                                             <hr class="no_line" style="margin: 0 auto 30px;" />
                                         </div>
                                         <div class="column mcb-column one-second column_image">
-                                            <div
+                                            <div class="container-fluid">
+
+                                                <div
+                                                    style="overflow:hidden;resize:none;max-width:100%;width:2000px;height:500px;">
+                                                    <div style="text-align-last: center ;">
+                                                        <h3>Locate Us Here !</h3>
+                                                    </div>
+                                                    <div id="googlemaps-canvas"
+                                                        style="height:100%; width:100%;max-width:100%;">
+                                                        <iframe style="height:100%;width:100%;border: 5px; border-color: black;" frameborder="0"
+                                                            src="https://www.google.com/maps/embed/v1/place?q=Konte+Kurry,+DANDI+MARG,+beside+LALITVILLA,+Vishwakarma+Society,+Vivekanand+Wadi,+Lambhvel,+Gujarat&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                                                        </iframe>
+                                                    </div>
+                                                    <a class="googlemaps-code" href="https://www.embed-map.com"
+                                                        id="injectmap-data">https://www.embed-map.com</a>
+                                                    <style>
+                                                        #googlemaps-canvas .text-marker {}
+
+                                                        .map-generator {
+                                                            max-width: 100%;
+                                                            max-height: 100%;
+                                                            background: none;
+                                                        }
+                                                    </style>
+                                                </div>
+                                            </div>
+                                            <!-- <div
                                                 class="image_frame image_item no_link scale-with-grid aligncenter no_border">
                                                 <div class="image_wrapper"><img class="scale-with-grid"
                                                         src="assets/images/home_bistro_contact_image.jpg" width="780"
                                                         height="635" />
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
-                                        <div class="column mcb-column one-second column_column">
-                                            <div class="column_attr" style="padding:15px 0 0 3%;">
-                                                <h3>Send us a message</h3>
+                                        <div class="column mcb-column one-second column_column" >
+                                            <div class="column_attr align_center aligncenter"  >
+                                                <h3 style="align-content:center ;">Send us a message</h3>
                                                 <hr class="no_line" style="margin: 0 auto 30px;" />
 
                                                 <div id="contactWrapper">
@@ -233,7 +262,69 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section mcb-section full-width " style="padding-top:0px; padding-bottom:0px;">
+
+                        <div class="section mcb-section full-width" style=" margin-left: 10%; margin-right: 10%">
+                            <div class="section_wrapper mcb-section-inner">
+                                <div class="wrap mcb-wrap one valign-top clearfix">
+                                    <div class="mcb-wrap-inner">
+                                        <div class="column mcb-column one column_column  column-margin-0px">
+                                            <div class="column_attr clearfix align_center" style="padding:30px 0 15px 30px">
+                                                <h2></h2>
+                                            </div>
+                                            <div class="column mcb-column one column_column" style="padding-top: 20px">
+                                                <div class="column one-third align_center column_attr contactplate">
+                                                    <a href="mailto:Kontekurry@gmail.com ">
+                                                        <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                            <div class="image_wrapper">
+                                                                <img class="svgcss" src="assets/svg/message.svg">
+                                                            </div>
+                                                        </div>
+                                                        <br>
+                                                        <div class="column mcb-column  one align_center column_hover_color">
+                                                            <div style="padding:40px 40px 25px">
+                                                                <p>Email Us</p>
+                                                            </div>
+                                                    </a>
+                                                    </div>
+                                                </div>
+                                                <div class="column one-third align_center column_attr contactplate">
+                                                    <a href="tel:+919574969622">
+                                                        <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                            <div class="image_wrapper">
+                                                                <img class="svgcss" src="assets/svg/phone.svg">
+                                                            </div>
+                                                        </div>
+                                                        <br>
+                                                        <div class="column mcb-column one  align_center column_hover_color">
+                                                            <div style="padding:40px 40px 25px">
+                                                                <p>Call Us</p>
+                                                            </div>
+                                                    </a>
+                                                    </div>
+                                                </div>
+                                                <div class="column one-third align_center column_attr contactplate">
+                                                    <a href="https://www.google.com/maps/search/KONTE+KURRY/@22.5634466,72.9315913,13z/data=!3m1!4b1" target="_blank">
+                                                        <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                            <div class="image_wrapper">
+                                                                <img class="svgcss" src="assets/svg/map-location-dot-solid.svg">
+                                                            </div>
+                                                        </div>
+                                                        <br>
+                                                        <div class="column mcb-column one align_center column_hover_color">
+                                                            <div style="padding:40px 40px 25px">
+                                                                <p>Location</p>
+                                                            </div>
+                                                    </a>
+                                                    </div>
+                                                </div>
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--<div class="section mcb-section full-width " style="padding-top:0px; padding-bottom:0px;">
                             <div class="section_wrapper mcb-section-inner">
                                 <div class="wrap mcb-wrap one  valign-top clearfix">
                                     <div class="mcb-wrap-inner">
@@ -270,7 +361,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="section the_content no_content">
                             <div class="section_wrapper">
                                 <div class="the_content_wrapper"></div>
