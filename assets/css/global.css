@@ -2236,6 +2236,9 @@ blockquote:after {
 	left: -25px;
 	top: -15px
 }
+.modal-backdrop {
+	position: relative !important;
+}
 .blockquote {
 	margin-bottom: 20px
 }
@@ -2264,6 +2267,7 @@ blockquote:after {
 
 .column_image {
 	line-height: 0
+	
 }
 .image_frame, .wp-caption {
 	display: block;
