@@ -235,6 +235,7 @@ iframe {
 .one-second.column {
 	width: 48%;
 }
+
 /* 1/2 */
 
 .three-fifth.column {
@@ -19677,4 +19678,18 @@ body {
     animation: 0.3s;
     color: #40abbf;
     text-decoration: none;
+}
+
+/*
+.modal-content{
+    background-image:url("home_bistro_footer_bg");
+	
+
+}*/
+
+.modal-notify .modal-header {
+    border-radius: 3px 3px 0 0;
+}
+.modal-notify .modal-content {
+    border-radius: 3px;
 }

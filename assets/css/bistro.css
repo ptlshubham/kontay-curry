@@ -881,7 +881,8 @@ blockquote, blockquote a, blockquote a:hover {
 	color: #444444;
 }
 .image_frame .image_wrapper .image_links, .portfolio_group.masonry-hover .portfolio-item .masonry-hover-wrapper .hover-desc {
-	background: rgba(85, 154, 78, 0.8);
+	background: #f9b205;
+	
 }
 .masonry.tiles .post-item .post-desc-wrapper .post-desc .post-title:after, .masonry.tiles .post-item.no-img, .masonry.tiles .post-item.format-quote {
 	background: #184e7d;
